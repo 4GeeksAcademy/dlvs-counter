@@ -24,7 +24,7 @@ export const SimpleCounter = () => {
             <h2 className={"text-danger"}>{'clock'}</h2>
             <div className="big-counter">
             <div>{<i className="fas fa-clock"></i>}</div>
-            <div>{Math.floor(counter / 10000000000 % 10)}</div>
+                <div>{Math.floor(counter / 10000000000 % 10)}</div>
                 <div>{Math.floor(counter / 1000000000 % 10)}</div>
                 <div>{Math.floor(counter / 100000000 % 10)}</div>
                 <div>{Math.floor(counter / 10000000 % 10)}</div>
@@ -44,7 +44,5 @@ export const SimpleCounter = () => {
                 </div>
             </div >
         </div >
-
     )
-
 }
